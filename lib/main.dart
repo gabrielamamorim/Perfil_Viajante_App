@@ -1,3 +1,4 @@
+import 'package:country_picker_pro/country_picker_pro.dart';
 import 'package:flutter/material.dart';
 import 'package:perfil_visitante_app/screens/user_settings_screen.dart';
 
@@ -16,7 +17,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.black,)
       ),
+
       home: const UserSettingsScreen(),
     );
   }
 }
+
